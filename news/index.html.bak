@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Berita — 23Century Indonesia</title>
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <base href="/">
+</head>
+<body>
+  <div class="container">
+    <h1>Berita & Pengumuman</h1>
+    <ul>
+      <li><a href="news/cambodian-boy-nk-cell-therapy-23c/">Anak 5 tahun menerima terapi NK dan membaik</a></li>
+      <li><a href="news/stem-cell-vision-recovery/">Pria mendapatkan kembali penglihatan setelah 30 tahun</a></li>
+    </ul>
+    <p><a href="/">Kembali ke Beranda</a></p>
+  </div>
+</body>
+</html>

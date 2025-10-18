@@ -1,6 +1,6 @@
 23Century Indonesia (Static)
 
-This repository contains a static Indonesian translation of https://23century.id/ prepared for deployment on GitHub Pages. The homepage and main section pages were converted and translated; additional pages and media from the original site should be fetched for full parity.
+This repository contains a static Indonesian translation of https://23c.jp/ prepared for deployment on GitHub Pages. The homepage and main section pages were converted and translated; additional pages and media from the original site should be fetched for full parity.
 
 To publish:
 1. Create a new GitHub repository named exactly `23century.github.io` or any repo and enable GitHub Pages from the `main` branch's `/` root.

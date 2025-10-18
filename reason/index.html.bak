@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Mengapa Memilih 23Century — 23Century Indonesia</title>
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <base href="/">
+</head>
+<body>
+  <div class="container">
+    <h1>6 Alasan Memilih 23Century</h1>
+    <ol>
+      <li><strong>Wharton's Jelly MSC</strong> — Sel punca tali pusat dengan kemampuan regenerasi tinggi.</li>
+      <li><strong>Fasilitas Berlisensi Internasional</strong> — Laboratorium kultur sel besar dengan sertifikasi NPRA dan cGMP.</li>
+      <li><strong>Pengalaman Klinis Luas</strong> — Lebih dari 20.000 aplikasi klinis di lebih dari 70 negara.</li>
+      <li><strong>Kualitas Global</strong> — Pengawasan mutu sesuai standar internasional.</li>
+    <div class="reasons-images">
+      <img src="/assets/img/reason_img_001.webp" alt="reason1" style="max-width:100%;height:auto;">
+      <img src="/assets/img/reason_img_002.webp" alt="reason2" style="max-width:100%;height:auto;">
+      <img src="/assets/img/reason_img_003.webp" alt="reason3" style="max-width:100%;height:auto;">
+      <img src="/assets/img/reason_img_004.webp" alt="reason4" style="max-width:100%;height:auto;">
+      <img src="/assets/img/reason_img_005.webp" alt="reason5" style="max-width:100%;height:auto;">
+      <img src="/assets/img/reason_img_006.webp" alt="reason6" style="max-width:100%;height:auto;">
+    </div>
+    <p><a href="/">Kembali ke Beranda</a></p>
+      <li><strong>Dukungan Bahasa Jepang</strong> — Staf berbahasa Jepang siap membantu pasien Jepang.</li>
+    </ol>
+    <p><a href="/">Kembali ke Beranda</a></p>
+  </div>
+</body>
+</html>
