@@ -1,0 +1,12 @@
+23Century Indonesia (Static)
+
+This repository contains a static Indonesian translation of https://23c.jp/ prepared for deployment on GitHub Pages. The homepage and main section pages were converted and translated; additional pages and media from the original site should be fetched for full parity.
+
+To publish:
+1. Create a new GitHub repository named exactly `23century.github.io` or any repo and enable GitHub Pages from the `main` branch's `/` root.
+2. Push these files to the repository's root.
+3. Because a `CNAME` file is included with `23century.id`, ensure your DNS for `23century.id` points to GitHub Pages IPs and configure the custom domain in the repo settings.
+
+Notes:
+- This is an initial static conversion of the homepage and main links. Additional pages, images and scripts should be fetched from the original site and referenced locally for full parity.
+- Visible links in the translated site were updated to relative paths so the site can be hosted under `23century.id`. However, the original site hosts many images and theme assets under `wp-content/...` that should be downloaded and referenced locally. Please audit any remaining external references before publishing.
