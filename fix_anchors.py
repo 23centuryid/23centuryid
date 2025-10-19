@@ -17,7 +17,7 @@ def add_faq_anchors():
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>FAQ — 23Century Indonesia</title>
+  <title>FAQ — 23Century Malaysia</title>
   <link rel="stylesheet" href="/assets/css/style.css">
   <link rel="stylesheet" href="/assets/css/main.css">
   <base href="/">
@@ -93,7 +93,7 @@ def add_flow_anchors():
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Alur Pelayanan — 23Century Indonesia</title>
+  <title>Alur Pelayanan — 23Century Malaysia</title>
   <link rel="stylesheet" href="/assets/css/style.css">
   <link rel="stylesheet" href="/assets/css/main.css">
   <base href="/">
