@@ -1,0 +1,281 @@
+/* Main CSS - Placeholder */
+/* This file is referenced by HTML but was not available from the original WordPress theme. */
+/* Minimal styling to ensure the site is functional. */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Noto Sans JP', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.l-header {
+    background: white;
+    padding: 15px 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.l-header__inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.l-header__logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin: 0;
+}
+
+.logo a {
+    text-decoration: none;
+}
+
+.logo img {
+    max-width: 100%;
+    height: auto;
+}
+
+.l-gNav {
+    margin-left: auto;
+}
+
+.l-gNavList {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.l-gNavList a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+.l-gNavList a:hover {
+    color: #0066cc;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px 0;
+    min-width: 200px;
+}
+
+.has-submenu:hover .submenu {
+    display: block;
+}
+
+.submenu li {
+    list-style: none;
+    padding: 8px 16px;
+}
+
+.submenu a {
+    text-decoration: none;
+    color: #333;
+}
+
+.submenu a:hover {
+    color: #0066cc;
+}
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.hamburger span {
+    width: 25px;
+    height: 3px;
+    background: #333;
+    border-radius: 2px;
+}
+
+.l-mv {
+    background: linear-gradient(135deg, #004a7c 0%, #0066cc 100%);
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.l-mv__inner {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.l-mv__Txt img {
+    max-width: 100%;
+    height: auto;
+}
+
+.l-breadcrumbs {
+    background: #f5f5f5;
+    padding: 15px 0;
+}
+
+.l-breadcrumbs__inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.l-breadcrumbsList {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+
+.l-breadcrumbsList li::before {
+    content: '/ ';
+    margin-right: 10px;
+}
+
+.l-breadcrumbsList li:first-child::before {
+    content: '';
+    margin-right: 0;
+}
+
+.entry-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    flex: 1;
+}
+
+.entry-content h1, .entry-content h2, .entry-content h3 {
+    color: #004a7c;
+}
+
+.entry-content img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
+
+.btn01 {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.btn01 a {
+    display: inline-block;
+    background: #0066cc;
+    color: white;
+    padding: 12px 30px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.btn01 a:hover {
+    background: #004a7c;
+}
+
+.l-footer {
+    background: #333;
+    color: white;
+    padding: 40px 20px;
+    margin-top: auto;
+}
+
+.l-footer__inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+}
+
+.l-footer__infoImage img {
+    max-width: 150px;
+    height: auto;
+}
+
+.l-footer__infoImage a {
+    text-decoration: none;
+}
+
+footer a {
+    color: #4da6ff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .l-header__inner {
+        flex-wrap: wrap;
+    }
+
+    .l-gNav {
+        display: none;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+
+    .l-gNavList {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .submenu {
+        position: static;
+        border: none;
+        background: #f5f5f5;
+    }
+
+    .entry-content {
+        padding: 20px;
+    }
+}
+
+.sp {
+    display: none;
+}
+
+@media (max-width: 640px) {
+    .sp {
+        display: block !important;
+    }
+
+    .pc {
+        display: none;
+    }
+
+    .l-mv__Txt img {
+        width: 100%;
+    }
+}
