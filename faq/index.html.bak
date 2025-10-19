@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>FAQ  23Century Indonesia</title>
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <base href="/">
+</head>
+<body>
+  <div class="container">
+    <h1>Pertanyaan yang Sering Diajukan (FAQ)</h1>
+    <h3>Apa itu pengobatan regeneratif?</h3>
+    <p>Pengobatan regeneratif adalah bidang medis yang bertujuan memperbaiki atau mengganti jaringan yang rusak menggunakan sel, faktor pertumbuhan, atau teknik biologis lain.</p>
+    <h3>Apa itu terapi sel punca?</h3>
+    <p>Terapi sel punca menggunakan sel punca untuk meregenerasi jaringan, mengontrol peradangan, dan memperbaiki fungsi organ yang terganggu.</p>
+    <p><a href="/">Kembali ke Beranda</a></p>
+  </div>
+</body>
+</html>

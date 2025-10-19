@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Proses Perawatan  23Century Indonesia</title>
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <base href="/">
+</head>
+<body>
+  <div class="container">
+    <h1>Proses Perawatan</h1>
+    <ol>
+      <li>Konsultasi & Pertanyaan (gratis)</li>
+      <li>Pengumpulan dokumen medis</li>
+      <li>Penilaian oleh dokter spesialis & rencana perawatan</li>
+      <li>Estimasi biaya dan jadwal perjalanan</li>
+      <li>Perjalanan ke Malaysia & perawatan</li>
+      <li> Tindak lanjut pasca perawatan</li>
+    </ol>
+    <p><a href="/">Kembali ke Beranda</a></p>
+  </div>
+</body>
+</html>
