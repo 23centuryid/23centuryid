@@ -1,0 +1,174 @@
+// 23Century.id Website Sitemap - Detailed Hierarchical View
+// Graphviz dot language format
+
+digraph SitemapDetailed {
+  rankdir=LR;
+  node [shape=box, style=rounded, fontname="Arial", fontsize=10];
+  edge [fontname="Arial", fontsize=8];
+  
+  subgraph cluster_main {
+    label="Main Navigation";
+    color=lightgrey;
+    style=filled;
+    
+    root [label="23Century.id\n(Home)", fillcolor="#FF6B6B", style="rounded,filled"];
+  }
+
+  subgraph cluster_beginners {
+    label="Untuk Pemula\n(For Beginners)";
+    color="#F3E5F5";
+    style=filled;
+    
+    about [label="About Us", fillcolor="#FCE4EC"];
+    malaysia [label="MSC Treatment\nin Malaysia", fillcolor="#FCE4EC"];
+  }
+
+  subgraph cluster_why_us {
+    label="Alasan Memilih Kami\n(Why Choose Us)";
+    color="#FFF3E0";
+    style=filled;
+    
+    wj_info [label="Wharton's Jelly\nMSC Info", fillcolor="#FFECB3"];
+    lab_info [label="23C Cell Culture\nLaboratory", fillcolor="#FFECB3"];
+  }
+
+  subgraph cluster_treatments {
+    label="Menu Perawatan\n(Treatment Menu)";
+    color="#E0F2F1";
+    style=filled;
+    
+    msc_therapy [label="MSC Therapy\n(Terapi Sel Punca)", fillcolor="#B2DFDB"];
+    nk_therapy [label="NK Cell Therapy\n(Terapi Sel NK)", fillcolor="#B2DFDB"];
+    secretome_therapy [label="Secretome Therapy\n(Terapi Secretome)", fillcolor="#B2DFDB"];
+  }
+
+  subgraph cluster_conditions {
+    label="Kondisi yang Dapat Ditangani\n(20+ Treatable Conditions)";
+    color="#F1F8E9";
+    style=filled;
+    
+    alz [label="Alzheimer's", fillcolor="#DCEDC8"];
+    amd [label="AMD", fillcolor="#DCEDC8"];
+    asd [label="ASD", fillcolor="#DCEDC8"];
+    blind [label="Blindness", fillcolor="#DCEDC8"];
+    pain [label="Chronic Pain", fillcolor="#DCEDC8"];
+    diabetes [label="Diabetes", fillcolor="#DCEDC8"];
+    ra [label="Rheumatoid\nArthritis", fillcolor="#DCEDC8"];
+    stroke [label="Post-Stroke", fillcolor="#DCEDC8"];
+    more [label="...15 more", fillcolor="#DCEDC8"];
+  }
+
+  subgraph cluster_msc_articles {
+    label="Stem Cell & Regenerative Therapy\n(幹細胞・再生医療)";
+    color="#C8E6C9";
+    style=filled;
+    
+    msc_overview [label="MSC Overview", fillcolor="#C8E6C9"];
+    stem_types [label="Stem Cell Types", fillcolor="#C8E6C9"];
+    risk_countries [label="Safety & Risk\nCountries", fillcolor="#C8E6C9"];
+    conversation [label="Dr. Tiah & Dr. Shimizu\nConversation", fillcolor="#C8E6C9"];
+    secretome_exo [label="Secretome vs\nExosome", fillcolor="#C8E6C9"];
+    ed_treatment [label="ED Treatment\nwith Stem Cells", fillcolor="#C8E6C9"];
+    misunderstand [label="Misunderstandings\nabout Stem Cells", fillcolor="#C8E6C9"];
+    peyers [label="Peyer's Patches\n& Elastin", fillcolor="#C8E6C9"];
+    wharton_auto [label="Wharton's Jelly\n& Autoimmune", fillcolor="#C8E6C9"];
+    wharton_rejection [label="Wharton's Jelly\nLow Rejection Risk", fillcolor="#C8E6C9"];
+  }
+
+  subgraph cluster_news {
+    label="News & Updates\n(お知らせ)";
+    color="#FFE0B2";
+    style=filled;
+    
+    news_home [label="News Home", fillcolor="#FFE0B2"];
+    cambodian_nk [label="Cambodian Boy\nNK Cell Therapy", fillcolor="#FFE0B2"];
+    award_2025 [label="Global Health\nAward 2025", fillcolor="#FFE0B2"];
+    renewal [label="Site Renewal", fillcolor="#FFE0B2"];
+    vision_recovery [label="Stem Cell Vision\nRecovery", fillcolor="#FFE0B2"];
+    warning_cgtp [label="Unauthorized CGTP\nWarning", fillcolor="#FFE0B2"];
+    seminar_2025 [label="Wharton's Jelly\nSecretome Seminar", fillcolor="#FFE0B2"];
+  }
+
+  subgraph cluster_column {
+    label="Column Blog\n(コラム)";
+    color="#E8EAF6";
+    style=filled;
+    
+    column_home [label="Column Home", fillcolor="#C5CAE9"];
+    covid_article [label="COVID-19 Infection\n& Immunity", fillcolor="#C5CAE9"];
+  }
+
+  subgraph cluster_utilities {
+    label="Service & Info Pages";
+    color="#F5F5F5";
+    style=filled;
+    
+    flow [label="Treatment Flow\n(Alur Perawatan)", fillcolor="#EEEEEE"];
+    price [label="Treatment Cost\n(Biaya Perawatan)", fillcolor="#EEEEEE"];
+    faq [label="FAQ\n(Pertanyaan Umum)", fillcolor="#EEEEEE"];
+    contact [label="Contact\n(Kontak)", fillcolor="#EEEEEE"];
+    operation [label="Operation Company\nInfo", fillcolor="#EEEEEE"];
+    terms [label="Terms of Service", fillcolor="#EEEEEE"];
+    disclaimer [label="Disclaimer", fillcolor="#EEEEEE"];
+    privacy [label="Privacy Policy", fillcolor="#EEEEEE"];
+  }
+
+  subgraph cluster_extras {
+    label="Additional Pages";
+    color="#F0F4C3";
+    style=filled;
+    
+    article_list [label="Article List\n(Daftar Artikel)", fillcolor="#F0F4C3"];
+    voice [label="Customer Voice\n(お客様の声)", fillcolor="#F0F4C3"];
+    cases [label="Case Studies\n(症例集)", fillcolor="#F0F4C3"];
+    certs [label="Certifications\n(12 types)", fillcolor="#F0F4C3"];
+  }
+
+  // Connections from root
+  root -> about;
+  root -> malaysia;
+  root -> wj_info;
+  root -> lab_info;
+  root -> msc_therapy;
+  root -> nk_therapy;
+  root -> secretome_therapy;
+  root -> alz;
+  root -> amd;
+  root -> asd;
+  root -> blind;
+  root -> pain;
+  root -> diabetes;
+  root -> ra;
+  root -> stroke;
+  root -> msc_overview;
+  root -> stem_types;
+  root -> risk_countries;
+  root -> conversation;
+  root -> secretome_exo;
+  root -> ed_treatment;
+  root -> misunderstand;
+  root -> peyers;
+  root -> wharton_auto;
+  root -> wharton_rejection;
+  root -> news_home;
+  root -> cambodian_nk;
+  root -> award_2025;
+  root -> renewal;
+  root -> vision_recovery;
+  root -> warning_cgtp;
+  root -> seminar_2025;
+  root -> column_home;
+  root -> covid_article;
+  root -> flow;
+  root -> price;
+  root -> faq;
+  root -> contact;
+  root -> operation;
+  root -> terms;
+  root -> disclaimer;
+  root -> privacy;
+  root -> article_list;
+  root -> voice;
+  root -> cases;
+  root -> certs;
+}

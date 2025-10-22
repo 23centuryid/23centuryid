@@ -1,0 +1,133 @@
+// 23Century.id Website Sitemap
+// Graphviz dot language format
+
+digraph Sitemap {
+  rankdir=TB;
+  node [shape=box, style=rounded, fontname="Arial"];
+  edge [fontname="Arial", fontsize=9];
+
+  // Root
+  root [label="23Century.id\n(Home)", style="rounded,filled", fillcolor="#FF6B6B"];
+
+  // Main Navigation
+  root -> beranda [label=""];
+  root -> untuk_pemula [label=""];
+  root -> daftar_artikel [label=""];
+  root -> alasan_kami [label=""];
+  root -> menu_perawatan [label=""];
+  root -> kondisi [label=""];
+  root -> alur [label=""];
+  root -> biaya [label=""];
+  root -> faq_page [label=""];
+  root -> kontak [label=""];
+
+  // Beranda & Primary Pages
+  beranda [label="Beranda\n(Home)", fillcolor="#E3F2FD"];
+  
+  // Untuk Pemula (For Beginners)
+  untuk_pemula [label="Untuk Pemula\n(For Beginners)", fillcolor="#F3E5F5"];
+  untuk_pemula -> about [label="Tentang Kami"];
+  untuk_pemula -> malaysia [label="Tentang Perawatan\nSel Punca di Malaysia"];
+
+  about [label="About Us", fillcolor="#FCE4EC"];
+  malaysia [label="MSC Treatment\nin Malaysia", fillcolor="#FCE4EC"];
+
+  // Daftar Artikel (Article List)
+  daftar_artikel [label="Daftar Artikel\n(Article List)", fillcolor="#E8F5E9"];
+
+  // Alasan Memilih Kami (Why Choose Us)
+  alasan_kami [label="Alasan Memilih Kami\n(Why Choose Us)", fillcolor="#FFF3E0"];
+  alasan_kami -> wj_msc [label="Tentang Wharton's\nJelly MSC"];
+  alasan_kami -> lab [label="Tentang Laboratorium\nKultur Sel 23C"];
+
+  wj_msc [label="Wharton's Jelly MSC", fillcolor="#FFECB3"];
+  lab [label="Cell Culture Lab 23C", fillcolor="#FFECB3"];
+
+  // Menu Perawatan (Treatment Menu)
+  menu_perawatan [label="Menu Perawatan\n(Treatment Menu)", fillcolor="#E0F2F1"];
+  menu_perawatan -> terapi_msc [label="Terapi Sel Punca"];
+  menu_perawatan -> terapi_nk [label="Terapi Sel NK"];
+  menu_perawatan -> terapi_secretome [label="Terapi Secretome"];
+
+  terapi_msc [label="MSC Therapy", fillcolor="#B2DFDB"];
+  terapi_nk [label="NK Cell Therapy", fillcolor="#B2DFDB"];
+  terapi_secretome [label="Secretome Therapy", fillcolor="#B2DFDB"];
+
+  // Kondisi yang Dapat Ditangani (Treatable Conditions)
+  kondisi [label="Kondisi yang Dapat\nDitangani", fillcolor="#F1F8E9"];
+  kondisi -> tree_group1 [style=invis];
+  
+  tree_group1 [label="20+ Treatable\nConditions", fillcolor="#DCEDC8", style=rounded];
+  
+  // MSC Category
+  msc_cat [label="MSC Category", fillcolor="#C8E6C9"];
+  root -> msc_cat [style=invis];
+  msc_cat -> msc_page;
+  msc_cat -> stem_types;
+  msc_cat -> risk_countries;
+  msc_cat -> msc_convo;
+  msc_cat -> difference_sec;
+  msc_cat -> ed_treatment;
+  msc_cat -> misunderstand;
+  msc_cat -> peyers;
+  msc_cat -> wharton_auto;
+  msc_cat -> wharton_reject;
+
+  msc_page [label="MSC Overview", fillcolor="#C8E6C9"];
+  stem_types [label="Stem Cell Types", fillcolor="#C8E6C9"];
+  risk_countries [label="Risk Countries", fillcolor="#C8E6C9"];
+  msc_convo [label="Conversation\n2025-04-03", fillcolor="#C8E6C9"];
+  difference_sec [label="Secretome vs\nExosome", fillcolor="#C8E6C9"];
+  ed_treatment [label="ED Treatment", fillcolor="#C8E6C9"];
+  misunderstand [label="Misunderstandings\nabout Stem Cells", fillcolor="#C8E6C9"];
+  peyers [label="Peyer's Patches\n& Elastin", fillcolor="#C8E6C9"];
+  wharton_auto [label="Wharton's Jelly &\nAutoimmune", fillcolor="#C8E6C9"];
+  wharton_reject [label="Wharton's Jelly &\nLow Rejection", fillcolor="#C8E6C9"];
+
+  // News Category
+  news_cat [label="News Category", fillcolor="#FFE0B2"];
+  root -> news_cat [style=invis];
+  news_cat -> news_page;
+  news_cat -> news_cambodian;
+  news_cat -> news_award;
+  news_cat -> news_renewal;
+  news_cat -> news_vision;
+  news_cat -> news_warning;
+  news_cat -> news_secretome;
+
+  news_page [label="News Overview", fillcolor="#FFE0B2"];
+  news_cambodian [label="Cambodian Boy\nNK Therapy", fillcolor="#FFE0B2"];
+  news_award [label="Global Health\nAward 2025", fillcolor="#FFE0B2"];
+  news_renewal [label="Site Renewal", fillcolor="#FFE0B2"];
+  news_vision [label="Stem Cell Vision\nRecovery", fillcolor="#FFE0B2"];
+  news_warning [label="Unauthorized CGTP\nWarning", fillcolor="#FFE0B2"];
+  news_secretome [label="Wharton's Jelly\nSecretome Seminar", fillcolor="#FFE0B2"];
+
+  // Other Pages
+  alur [label="Alur Perawatan\n(Treatment Flow)", fillcolor="#E1F5FE"];
+  biaya [label="Biaya Perawatan\n(Treatment Cost)", fillcolor="#E1F5FE"];
+  faq_page [label="FAQ\n(Pertanyaan Umum)", fillcolor="#E1F5FE"];
+  kontak [label="Kontak\n(Contact)", fillcolor="#E1F5FE"];
+
+  // Support/Info Pages
+  info_group [label="Support Pages", fillcolor="#F5F5F5"];
+  root -> info_group [style=invis];
+  info_group -> operation;
+  info_group -> terms;
+  info_group -> disclaimer;
+  info_group -> privacy;
+
+  operation [label="Operation Company\nInfo", fillcolor="#EEEEEE"];
+  terms [label="Terms of Service", fillcolor="#EEEEEE"];
+  disclaimer [label="Disclaimer", fillcolor="#EEEEEE"];
+  privacy [label="Privacy Policy", fillcolor="#EEEEEE"];
+
+  // Other Pages
+  voice [label="Customer Voice", fillcolor="#F0F4C3"];
+  case_studies [label="Case Studies", fillcolor="#F0F4C3"];
+  certifications [label="Certifications", fillcolor="#F0F4C3"];
+  
+  root -> voice [style=invis];
+  root -> case_studies [style=invis];
+  root -> certifications [style=invis];
+}
