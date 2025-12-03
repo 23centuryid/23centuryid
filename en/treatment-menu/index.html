@@ -190,16 +190,13 @@ window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(argumen
 <a href="/en/treatment-menu/" class="l-idswitcher"><div></div></a>
 
 <script>
-// Show page-to-top and language switcher buttons on scroll
+// Show page-to-top button on scroll
 window.addEventListener('scroll', function() {
   var pagetop = document.querySelector('.l-pagetop');
-  var idswitcher = document.querySelector('.l-idswitcher');
   if (window.scrollY > 100) {
     if (pagetop) pagetop.style.display = 'block';
-    if (idswitcher) idswitcher.style.display = 'block';
   } else {
     if (pagetop) pagetop.style.display = 'none';
-    if (idswitcher) idswitcher.style.display = 'none';
   }
 });
 
