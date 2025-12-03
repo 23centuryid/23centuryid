@@ -773,6 +773,30 @@ Layout
   .l-pagetop { width: 40px; height: 40px; right: 10px; bottom: 10px;}
 }
 
+
+/* l-langswitcher (Language Switcher)
+------------------------------------- */
+.l-langswitcher {
+  position: fixed;
+  left: 20px;
+  bottom: 20px;
+  width: 50px;
+  height: 50px;
+  background: linear-gradient(45deg, #758EC4, #EF849D 50%);
+  display: none;
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 50%;
+  z-index: 999;
+}
+.l-langswitcher>div { display: flex; width: 100%; height: 100%; align-items: center; justify-content: center;}
+.l-langswitcher>div::after { content: "EN"; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", sans-serif; font-weight: 700; color: #fff; font-size: 0.9rem; letter-spacing: 0.5px;}
+
+@media screen and (max-width: 500px) {
+  .l-langswitcher { width: 40px; height: 40px; left: 10px; bottom: 10px;}
+  .l-langswitcher>div::after { font-size: 0.75rem;}
+}
+
 /* l-pagination
 ------------------------------------- */
 .l-pagination {
