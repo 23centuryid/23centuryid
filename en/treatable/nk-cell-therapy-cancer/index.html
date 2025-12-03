@@ -23,9 +23,34 @@
 <div class="placeholder">
 <p>Halaman ini sedang dalam proses pengembangan.</p>
 <p>Content akan ditambahkan segera.</p>
-<p><a href="/">Kembali ke Beranda</a></p>
+<p><a href="/en/">Kembali ke Beranda</a></p>
 </div>
 </div>
 </div>
+<a href="/en/treatable/nk-cell-therapy-cancer/" class="l-idswitcher"><div></div></a>
+
+<script>
+// Show page-to-top and language switcher buttons on scroll
+window.addEventListener('scroll', function() {
+  var pagetop = document.querySelector('.l-pagetop');
+  var idswitcher = document.querySelector('.l-idswitcher');
+  if (window.scrollY > 100) {
+    if (pagetop) pagetop.style.display = 'block';
+    if (idswitcher) idswitcher.style.display = 'block';
+  } else {
+    if (pagetop) pagetop.style.display = 'none';
+    if (idswitcher) idswitcher.style.display = 'none';
+  }
+});
+
+// Scroll to top when pagetop is clicked
+var pagetop = document.querySelector('.l-pagetop');
+if (pagetop) {
+  pagetop.addEventListener('click', function() {
+    window.scrollTo({top: 0, behavior: 'smooth'});
+  });
+}
+</script>
+
 </body>
 </html>
