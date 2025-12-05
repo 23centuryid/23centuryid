@@ -336,4 +336,32 @@ jQuery(document).ready(function($) {
     }
   }
   openAccordionFromHash();
+
+  // Language switcher: Convert current path to opposite language
+  $(".l-langswitcher").click(function(e) {
+    e.preventDefault();
+    var currentPath = window.location.pathname;
+    var currentLang = $("html").attr("lang");
+    var newPath;
+
+    if (currentLang === "en") {
+      // On English page, navigate to Indonesian version
+      // Remove /en/ prefix from the path
+      if (currentPath.startsWith("/en/")) {
+        newPath = currentPath.substring(4) || "/";
+      } else {
+        newPath = currentPath;
+      }
+    } else {
+      // On Indonesian page, navigate to English version
+      // Add /en/ prefix to the path
+      if (currentPath === "/") {
+        newPath = "/en/";
+      } else {
+        newPath = "/en" + currentPath;
+      }
+    }
+
+    window.location.href = newPath;
+  });
 });
